@@ -1,7 +1,7 @@
 import selector
 import feature
 
-# TEST 1
+# TEST 1 - Paper
 candidates = ["Gun", "Bell"];
 s1 = selector.Selector(candidates)
 
@@ -13,7 +13,7 @@ s1.add_immeasurable_feature(f2, [4, 3])
 
 s1.calc_premium_values()
 
-# TEST 2
+# TEST 2 - Paper
 candidates = ["Gun", "Bell"]
 s2 = selector.Selector(candidates)
 
